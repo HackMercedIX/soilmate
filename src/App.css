@@ -1,38 +1,79 @@
 .App {
-  text-align: center;
+  display: flex;
+  font-family: 'Arial', sans-serif;
+  height: 100vh;
+  background-color: #e8f5e9; /* light green background */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Sidebar styles */
+.sidebar {
+  width: 250px;
+  background-color: #81c784; /* slightly darker green for contrast */
+  color: #ffffff; /* white text color */
+  padding: 20px;
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sidebar-header {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.sidebar-item {
+  margin-bottom: 10px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.sidebar-item:hover {
+  background-color: #4caf50; /* a darker green for hover state */
+}
+
+.sidebar-item.selected {
+  background-color: #66bb6a; /* selected item with a different green */
+}
+
+/* Chat styles */
+.chat {
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.chat-header {
+  background-color: #a5d6a7; /* soft green header */
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.chat-messages {
+  flex-grow: 1;
+}
+
+.chat-input {
+  display: flex;
+  padding: 20px;
+  background-color: #c8e6c9; /* footer with a light green */
+}
+
+.chat-input input {
+  flex-grow: 1;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.chat-input input:focus {
+  outline: none;
+  border-color: #66bb6a; /* darker green border for focus state */
+}
+
+.background {
+  background-image: url('soilmate.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }

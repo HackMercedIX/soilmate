@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.background {
+  background-image: url('soilmate.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

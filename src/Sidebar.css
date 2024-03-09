@@ -1,0 +1,29 @@
+.sidebar {
+    width: 250px;
+    background-color: #81c784; /* slightly darker green for contrast */
+    color: #ffffff; /* white text color */
+    padding: 20px;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar-header {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .sidebar-item {
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .sidebar-item:hover {
+    background-color: #4caf50; /* a darker green for hover state */
+  }
+  
+  .sidebar-item.selected {
+    background-color: #66bb6a; /* selected item with a different green */
+  }
+  
