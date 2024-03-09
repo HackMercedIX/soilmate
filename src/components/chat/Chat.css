@@ -40,3 +40,65 @@
     background-position: center;
   }
   
+  /* Additional styles for the send button */
+.send-button {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #66bb6a; /* soft green button */
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .send-button:hover {
+    background-color: #558b2f; /* darker green on hover */
+  }
+  
+  /* Adjust the input to leave space for the button */
+  .chat-input input {
+    /* Keep your existing styles */
+    /* Reduce the width to make space for the send button */
+    flex-grow: 0;
+    width: calc(100% - 75%); /* Adjust the width as needed */
+    margin-right: 10px; /* Ensure there's some space between the input and the button */
+  }
+
+  /* Chat.css */
+
+/* Existing styles ... */
+
+/* Styles for message bubbles */
+.message {
+    max-width: 75%; /* Adjust width as needed */
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    position: relative;
+    display: inline-block;
+    font-size: 1.2em; /* Larger font size */
+    /* Add any other text styling you want, such as font-family, line-height, etc. */
+  }
+  
+  /* Differentiate between sent and received messages */
+  .message.sent {
+    background-color: #dcf8c6; /* Light green background for sent messages */
+    align-self: flex-end;
+    margin-right: 20px;
+  }
+  
+  .message.received {
+    background-color: #ffffff; /* White background for received messages */
+    align-self: flex-start;
+    margin-left: 20px;
+  }
+  
+  /* Ensure messages are aligned correctly */
+  .chat-messages {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  /* ... Rest of your existing styles */
+  
