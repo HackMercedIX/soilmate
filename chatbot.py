@@ -2,8 +2,16 @@ from openai import OpenAI
 import time
 from flask import Flask, request, jsonify
 from openai import OpenAI
+from flask_cors import CORS
+
 
 app = Flask(__name__)
+CORS(app)
+
+@app.route('/hello', methods=['POST'])
+def test():
+    return jsonify({"response": "I'm sorry, I couldn't understand that."})
+
 
 @app.route('/chatbot', methods=['POST'])
 def chatbot():
@@ -35,7 +43,7 @@ def chatbot():
             break
 
     if assistant_message:
-        return jsonify({"response": assistant_message})
+        return jsonify(response=assistant_message)
     else:
         return jsonify({"response": "I'm sorry, I couldn't understand that."})
 
