@@ -1,7 +1,7 @@
 .sidebar {
     width: 250px;
-    background-color: #81c784; /* slightly darker green for contrast */
-    color: #ffffff; /* white text color */
+    background-color: #aceeae; /* slightly darker green for contrast */
+    color: #000000; /* white text color */
     padding: 20px;
     box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
   }
