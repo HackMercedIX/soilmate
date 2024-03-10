@@ -26,10 +26,10 @@ Note that while Soil Mate strives to provide accurate information and resources,
 We hope you enjoy using Soil Mate and find it helpful in your gardening journey. If you have any questions or feedback, please feel free to reach out to us.
 
 ## Contributors
-Anant Rastogi
-Rini Jain
-Michael Fang
-Justin Ngo
+~ Anant Rastogi
+~ Rini Jain
+~ Michael Fang
+~ Justin Ngo
 
 ## Acknowledgements
 
