@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# SoilMate
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Soil Mate is a gardening companion project developed during the HackMerced IX hackathon.
 
-## Available Scripts
+The aim of this project is to provide gardeners with a comprehensive platform where they can access all the valuable information and resources to enhance their gardening experience.
 
-In the project directory, you can run:
+Through the utilization of modern web technologies and collaborative efforts, Soil Mate offers a range of features including plant care guides, soil composition and climate analysis, and so much more along with community interaction. We trained our AI model using multiple datasets obtained from Kaggle which includes over 1700 common gardener related Questions and Answers and trained it with that to answer unlimited questions from fellow gardeners.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
+To use the application, simply clone the repository and run the following commands in your terminal:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Install dependencies
+npm install
 
-### `npm test`
+This will install the necessary dependencies and start the development server.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Run the App
+npm start
 
-### `npm run build`
+You can then access the application by navigating to http://localhost:3000 in your web browser.
+Once you have the application running, you can type the prompt and the question you want to ask the Gardening Assistant and it will help you by giving the answers according to your texts.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Note that while Soil Mate strives to provide accurate information and resources, gardening practices may vary based on location and individual circumstances. Users are encouraged to consult additional sources and seek expert advice when needed.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+We hope you enjoy using Soil Mate and find it helpful in your gardening journey. If you have any questions or feedback, please feel free to reach out to us.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contributors
+Anant Rastogi
+Rini Jain
+Michael Fang
+Justin Ngo
 
-### `npm run eject`
+## Acknowledgements
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
