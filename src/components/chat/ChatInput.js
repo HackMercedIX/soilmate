@@ -1,20 +1,24 @@
+// ChatInput.js
 import React, { useState } from 'react';
-import './Chat.css';
+import './Chat.css'; // Ensure this path is correct for your CSS styles
 
 function ChatInput({ onSendMessage }) {
   const [message, setMessage] = useState('');
 
   const handleSendClick = () => {
     onSendMessage(message);
-    setMessage(''); // Clear the input field
+    setMessage(''); // Clear the input field after sending
   };
 
   const handleInputChange = (event) => {
     setMessage(event.target.value);
   };
 
-  const handleKeyPress = (event) => {
+  const handleKeyDown = (event) => {
+    // Log the key press for debugging (optional, can be removed in production)
+    console.log(event.key); 
     if (event.key === 'Enter') {
+      event.preventDefault(); // Prevent the default action to avoid submitting a form
       handleSendClick();
     }
   };
@@ -25,9 +29,9 @@ function ChatInput({ onSendMessage }) {
         type="text"
         value={message}
         onChange={handleInputChange}
-        onKeyPress={handleKeyPress}
+        onKeyDown={handleKeyDown}
         placeholder="Type your message here..."
-        className="text-input" // Refer to the class in your CSS
+        className="text-input"
       />
       <button onClick={handleSendClick} className="send-button">
         Send
