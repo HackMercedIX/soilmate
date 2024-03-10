@@ -29,4 +29,10 @@ We hope you enjoy using Soil Mate and find it helpful in your gardening journey.
 ~ Anant Rastogi, Rini Jain, Michael Fang, Justin Ngo
 
 ## Acknowledgements
+https://data.world/sharon/vegetables-herbs-and-edible-flowers
+This project makes use of the "Vegetables, Herbs, and Edible Flowers" dataset available on data.world, which has been instrumental in providing comprehensive information that underpins many features of SoilMate. The dataset includes a wealth of knowledge on various plant species, optimal growing conditions, maintenance tips, and other invaluable data that has greatly enriched the content and advice dispensed by our AI gardening assistant.
 
+https://huggingface.co/datasets/zadhart/PlantsChatbotPTBR?row=98
+We would like to acknowledge the "PlantsChatbotPTBR" dataset hosted on Hugging Face Datasets, which has been a valuable resource for enhancing the capabilities of Soil Mate, our AI gardening assistant. The dataset provided a rich set of conversational data in Portuguese, which includes interactions about plant care, troubleshooting, and other gardening insights that have been pivotal in training our chatbot to understand and respond to user inquiries effectively. 
+
+We are really grateful for the support and resources we got online, throughout our development.
